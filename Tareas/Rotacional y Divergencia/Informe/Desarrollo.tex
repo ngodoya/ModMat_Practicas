@@ -91,7 +91,7 @@ en el plano $$ \nabla \times \vec{F} =
 \hat{i} & \hat{j} & \hat{k} \\
 \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
 P & Q & 0
-\end{vmatrix} = \hat{i}\left(\frac{\partial R}{\partial y} - \frac{\partial Q}{\partial z}\right) + \hat{j}
+\end{vmatrix} = \hat{i}\left(\frac{\partial 0}{\partial y} - \frac{\partial Q}{\partial z}\right) + \hat{j}
 \left(\frac{\partial P}{\partial z} - \frac{\partial 0}{\partial x}\right) + \hat{k}\left(\frac{\partial Q}{\partial x} 
 - \frac{\partial P}{\partial y}\right)$$ como P y Q no dependen de z, entonces las derivadas parciales con respecto a z 
 son 0, por lo que el rotacional se reduce a: $$ \nabla \times \vec{F} = \hat{k}\left(\frac{\partial Q}{\partial x} - 
@@ -115,7 +115,7 @@ ambas rutas daran el mismo resultado, es util cuando se trata con curvas muy com
 Por ultimo podemos resaltar que si la componente R es igual a 0 como habíamos dicho obtenemos una función vectorial 
 que solo tiene componenten en el eje z, esto util ya que en realidad estamos tratando con una función escalar,
 viendo de la siguiente manera $$ \nabla \times \vec{F} = \hat{k}\left(\frac{\partial Q}{\partial x} - 
-\frac{\partial P}{\partial y}\right) \text{donde} z = \frac{\partial Q}{\partial x} - \frac{partial P}{\partial y}$$
+\frac{\partial P}{\partial y}\right) \text{donde} \quad z = \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}$$
 
 Otra forma que utilice para desarrollar el rotacional y gráficarlo en matplotlib fue visualizarlo como un mapa de calor, 
 es decir, que cada punto del plano xy tenga un color diferente dependiendo del valor del rotacional en ese punto. Relacionando

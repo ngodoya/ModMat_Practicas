@@ -6,26 +6,15 @@
 
 ## Tecnologías y Herramientas
 
-Para el desarrollo de estas prácticas, se han empleado herramientas de código abierto y estándares de documentación técnica:
+Para el desarrollo de estas prácticas, se han empleado herramientas de código abierto y estándares de documentación técnica (esta materia la llevo de la mano con métodos numericos :p):
 
-* **Lenguaje:** Python 3.10+
+* **Lenguaje:** Python 3.13
 * **Librerías Core:** * `NumPy`: Procesamiento de matrices y vectores fila.
     * `Matplotlib`: Visualización de datos y superficies 3D.
-    * `SciPy`: Algoritmos avanzados de integración y optimización.
+    * `SciPy`: Algoritmos avanzados de integración y optimización. (en proceso :v)
 * **Entorno de Trabajo:** * **OS:** Linux (entorno de desarrollo principal).
     * **Notas:** Obsidian (integrado mediante Markdown y LaTeX).
     * **Control de Versiones:** Git + GitHub.
-
----
-
-## Estructura del Repositorio
-
-| Directorio | Descripción |
-| :--- | :--- |
-| `Metodos_Numericos/` | Algoritmos de Euler, Runge-Kutta y aproximaciones. |
-| `Mecanica_Fluidos/` | Modelos aplicados al comportamiento de fluidos. |
-| `Visualizacion/` | Scripts de Matplotlib para generación de gráficas 3D. |
-| `Notas/` | Documentación teórica exportada desde Obsidian. |
 
 ---
 
